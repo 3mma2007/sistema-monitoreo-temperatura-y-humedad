@@ -6,8 +6,8 @@ import urequests
 
 
 #WiFi  
-ssid = "FLIA ESCOBAR"  #nombre de la red   SSID = service set identifier (nombre publico de la red wifi)
-password = "Josue2311" #contraseña de la red
+ssid = "TU SSID"  #nombre de la red   SSID = service set identifier (nombre publico de la red wifi)
+password = "TU CONTRASEÑA" #contraseña de la red
 
 
 #https://www.profetolocka.com.ar/2020/12/15/micropython-conectar-con-una-red-wifi/
