@@ -32,7 +32,7 @@ proyecto esp32/
 │   ├── boot.py          # Se ejecuta al arrancar el ESP32 (vacío, opcional)
 │   └── main.py           # Código principal: WiFi + sensor + envío HTTP
 ├── server.py              # Servidor Flask: recibe datos y los guarda en Sheets
-├── credenciales.json      # Llave de cuenta de servicio de Google (NO subir a git)
+├── credenciales.json      # Llave de cuenta de servicio de Google (NO compartir)
 ├── micropython.bin        # Firmware de MicroPython para flashear el ESP32
 └── requirements.txt       # Dependencias
 ```
@@ -49,7 +49,7 @@ proyecto esp32/
 6. Crea una hoja de cálculo en Google Sheets llamada exactamente `esp32_datos`.
 7. Compártela (botón "Compartir") con el `client_email` del paso 5, dándole permiso de **Editor**.
 
-> ⚠️ `credenciales.json` da acceso completo a esa hoja de cálculo. No lo subas a repositorios públicos ni lo compartas.
+> ⚠️ `credenciales.json` da acceso completo a esa hoja de cálculo. No compartir.
 
 ## Parte 2 — Preparar el entorno en la PC
 
